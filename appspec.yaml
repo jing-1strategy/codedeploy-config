@@ -8,3 +8,5 @@ Resources:
         LoadBalancerInfo:
           ContainerName: "cicd-demo-container"
           ContainerPort: 5000
+Hooks:
+  - BeforeAllowTraffic: deployment_testing
